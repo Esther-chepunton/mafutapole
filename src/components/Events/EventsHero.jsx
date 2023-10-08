@@ -2,7 +2,7 @@
 import React from 'react'
 
 
-export default function ContactsHero() {
+export default function WeDoHero() {
   return (
     <div className=' '>
         <div>
@@ -23,7 +23,7 @@ export default function ContactsHero() {
    className="  md:-mt-[300px] md:ml-14 mx-5 md:text-3xl text-2xl text-white"
    
    >
-    <p style={{ fontWeight: '1000'}} className=' pt-5 md:pt-14 md:text-8xl text-4xl'>Contacts</p>
+    <p style={{ fontWeight: '1000'}} className=' pt-5 md:pt-14 md:text-8xl text-5xl'>Events</p>
     
     
 

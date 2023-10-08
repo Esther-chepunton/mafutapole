@@ -2,12 +2,12 @@ import React from 'react'
 
 function Section2() {
   return (
-    <div className='h-[140vh] '>
-        <div className='mt-52'>
-            <h1 className=' text-black text-6xl font-black ml-20'>What we do</h1>
+    <div className='md:h-[140vh] '>
+        <div className='sm:mt-52 mt-28'>
+            <h1 className=' text-black md:text-6xl text-5xl font-black md:ml-20 ml-4'>What we do</h1>
             <hr className='w-11/12 border-t-1 mx-auto border-gray-300 my-10' />
             
-            <div className='md:ml-[600px]'>
+            <div className='md:ml-[600px] ml-2'>
                 <p className=' font-bold text-2xl'>We plan and support amazing projects that help change the lives of disadvantaged children and young people from across different regions of the world.</p>
                 <button className='mt-5'>
                     <span className='mt-5 text-sm text-[#833556] font-bold'>READ MORE</span>

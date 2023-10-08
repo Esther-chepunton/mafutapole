@@ -2,7 +2,7 @@ import React from 'react'
 
 function Stats() {
   return (
-    <div>
+    <div className=''>
         <section className="bg-white">
   <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
     <div className="mx-auto max-w-3xl text-center">
