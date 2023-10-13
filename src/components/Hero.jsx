@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Hero() {
   return (
@@ -12,9 +13,13 @@ function Hero() {
             <p className=' md:text-7xl text-4xl text-white font-black tracking-wider'>Awareness Project</p>
             <h1 className='text-white/80 font-semibold text-lg mt-5'>"Help Us Help Them"</h1>
 
+            <Link to={"/about"}>
+
             <button className='bg-pink-500 px-10 py-3 mt-7 rounded-full'>
                 <span className='text-white font-semibold text-sm'>READ MORE</span>
             </button>
+
+            </Link>
         </div>
         
     </div>

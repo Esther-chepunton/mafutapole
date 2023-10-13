@@ -1,6 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react'
+import Drawer from './Drawer';
+import Donate from './Donate';
 
 function Section4() {
+
+  const [isDonateOpen, setDonateOpen] = useState(false);
+
+    const openDonate = () =>{
+        setDonateOpen(true)
+    }
+
+    const closeDonate = () => {
+        setDonateOpen(false)
+    }
   return (
     <div className='md:h-[90vh] bg-[#833556] pb-20'>
         <section>
@@ -10,11 +22,17 @@ function Section4() {
             <button
               
               className="text-[#833556] font-semibold hover:text-pink-300 text-sm bg-white px-9 py-4 border-1 border-[#b56b8a]"
+              onClick={openDonate}
             >
               DONATE
             </button>
           </div>
         </section>
+
+        <Drawer isOpen={isDonateOpen} onClose = {closeDonate}>
+  <Donate />
+</Drawer>
+
     </div>
   )
 }

@@ -4,7 +4,7 @@ function Stats() {
   return (
     <div className=''>
         <section className="bg-white">
-  <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
+  <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 md:mt-20 lg:px-8">
     <div className="mx-auto max-w-3xl text-center">
       <h2 className="text-3xl font-bold text-gray-900 sm:text-5xl">
         Our numbers that speak
@@ -21,7 +21,7 @@ function Stats() {
           className="flex flex-col rounded-lg border border-b-2 border-b-orange-200 border-gray-100 px-4 py-8 text-center"
         >
           <dt className="order-last pt-2 text-xl font-bold text-gray-500">
-            Children helped
+            Girls helped
           </dt>
 
           <dd className="text-4xl font-extrabold text-pink-900 md:text-6xl">
@@ -34,11 +34,11 @@ function Stats() {
         >
             
           <dt className="order-last pt-2 text-xl font-bold text-gray-500">
-            Funds raised
+            Boys Helped
           </dt>
          
 
-          <dd className="text-4xl font-extrabold text-pink-900 md:text-6xl">$ 24m</dd>
+          <dd className="text-4xl font-extrabold text-pink-900 md:text-6xl"> 350</dd>
 
           
         </div>
@@ -48,10 +48,10 @@ function Stats() {
           className="flex flex-col rounded-lg border border-b-2 border-b-orange-200 border-gray-100 px-4 py-8 text-center"
         >
           <dt className="order-last pt-2 text-xl font-bold text-gray-500">
-            Members worldwode
+            Parents Helped
           </dt>
 
-          <dd className="text-4xl font-extrabold text-pink-900 md:text-6xl">86</dd>
+          <dd className="text-4xl font-extrabold text-pink-900 md:text-6xl">200</dd>
         </div>
       </dl>
     </div>

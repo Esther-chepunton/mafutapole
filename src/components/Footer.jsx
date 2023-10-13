@@ -1,15 +1,28 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {BiLogoFacebook, BiLogoInstagramAlt, BiLogoTwitter, BiLogoWhatsapp, BiLogoTiktok} from 'react-icons/bi'
+import Drawer from './Drawer';
+import Donate from './Donate';
 
 function Footer() {
+
+  const [isDonateOpen, setDonateOpen] = useState(false);
+
+    const openDonate = () =>{
+        setDonateOpen(true)
+    }
+
+    const closeDonate = () => {
+        setDonateOpen(false)
+    }
+
   return (
     <div className=' md:h-[90vh] bg-black'>
         <footer className=" lg:grid lg:grid-cols-5">
   <div className="relative block  lg:col-span-2 lg:h-full  md:ml-10 ml-4">
     <h1 className='md:mt-20 pt-10 sm:pt-0 font-bold text-2xl text-[#833556] opacity-80 uppercase '>Our Mission</h1>
-    <p className='mt-5 text-white/70'>To inform and equip teenagers with proper knowledge about early pregnancies, sexually transmitted diseases and general menstrual hygiene </p>
+    <p className='mt-5 text-white/70'>Through a holistic approach, we strive to create a supportive environment that enables young individuals and families to make informed choices, pursue meaningful careers, and thrive as responsible members of society. </p>
 
-    <button className="mt-4 flex justify-center md:mt-8 ">
+    <button className="mt-4 flex justify-center md:mt-8 " onClick={openDonate}>
             <p
               
               className="text-orange-100 font-bold rounded-full hover:text-pink-300 text-sm bg-[#833556] px-7 py-3 border-1 border-[#b56b8a]"
@@ -34,10 +47,10 @@ function Footer() {
           <p
             className="block text-base  mt-2 text-white hover:opacity-75 sm:text-lg"
           >
-            0123456789
+            0712027836
           </p>
 
-          <h1 className='text-orange-200 underline text-base  mt-3'><a href='#'>tepa@gmail.com</a></h1>
+          <h1 className='text-orange-200 underline text-base  mt-3'><a href='mailto:ceo@tepa.co.ke'>ceo@tepa.co.ke</a></h1>
         </p>
 
         
@@ -145,12 +158,16 @@ function Footer() {
         </ul>
 
         <p className="mt-8 text-xs text-gray-500 sm:mt-0">
-          &copy; 2022. Company Name. All rights reserved.
+          &copy; 2023. Tenage Pregnancy Awareness Project. All rights reserved.
         </p>
       </div>
     </div>
   </div>
 </footer>
+<Drawer isOpen={isDonateOpen} onClose = {closeDonate}>
+  <Donate />
+</Drawer>
+
     </div>
   )
 }

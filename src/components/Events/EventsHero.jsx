@@ -10,7 +10,7 @@ export default function WeDoHero() {
 <div className=''>
   <img
   
-  src={"/image9.jpg"}
+  src={"/B4K5.jpg"}
   alt="background"
   className=" md:h-[70vh] h-[40vh] w-full object-cover inset-0 bg-white/75"
 

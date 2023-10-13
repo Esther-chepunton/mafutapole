@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Section1() {
   return (
@@ -14,19 +15,21 @@ function Section1() {
           </h2>
 
           <p className=" text-white/90 font-black md:text-2xl text-lg sm:mt-8 mt-2 sm:block">
-          We’ve worked on improving the lives of over 25,000 young people through direct practice
+          We have made a significant difference in the lives of more than 1000 girls, 350 boys, and 200 parents through our direct interventions.
           </p>
           <p className=" text-white/60 sm:mt-10 mt-2 md:text-base text-sm font-medium sm:block">
-          Young people from different backgrounds have a huge impact on us and all our activities. They highlight those parts of the society that are broken, so we can help them in all possible ways to regain hope and flourish in life.
+          Through a collaborative and participatory approach, we are actively working to reduce teenage pregnancies, foster entrepreneurship, ensure access to menstrual hygiene products, and strengthen family bonds. Our efforts aim not just to reach individuals but to create lasting positive changes in their lives, building a stronger and more empowered community for everyone involved.
           </p>
 
           <div className="mt-12 ">
-            <a
-              href="#"
+            <Link to={"/events"}>
+            <button
+            
               className="text-[#833556] font-semibold hover:text-pink-300 bg-white px-10 py-4 border-1 border-[#b56b8a]"
             >
               READ MORE
-            </a>
+            </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ function ContactForm() {
             Nairobi, Kenya
           </address>
 
-          <h1 className=' underline text-base  mt-3'><a href='#'>tepa@gmail.com</a></h1>
+          <h1 className=' underline text-base  mt-3'><a href='mailto:ceo@tepa.co.ke'>ceo@tepa.co.ke</a></h1>
         </div>
       </div>
 
