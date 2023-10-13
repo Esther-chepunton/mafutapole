@@ -19,7 +19,7 @@ function EventsSection() {
   };
 
   return (
-    <div className='md:pt-40'>
+    <div className='md:pt-40 mb-20'>
       <div className='mt-20'>
         <h1 className='text-black md:text-5xl text-4xl font-black md:ml-20 ml-5'>Our Events</h1>
       </div>
@@ -66,7 +66,7 @@ function EventsSection() {
                 {event.title}
               </h3>
 
-              <p className="mt-2 max-w-sm text-gray-700">
+              <p className="mt-2 max-w-lg text-sm text-gray-700">
                 {event.description}
               </p>
             </div>

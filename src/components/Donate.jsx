@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { FaCopy, FaCheck } from 'react-icons/fa';
+import DonateButton from './Events/DonateButton';
 
 function Donate() {
   const [copiedText, setCopiedText] = useState('');
@@ -23,6 +24,8 @@ function Donate() {
         <h1 className='text-4xl font-bold text-pink-700 mt-5 uppercase'>Mpesa Donation</h1>
         <h2 className=' font-semibold'>"Help Us, Help Them"</h2>
       </div>
+
+      
 
 
       <div className='sm:mt-6 mt-3 md:ml-5 sm:flex bg-gray-500 py-5 px-5'>
@@ -75,6 +78,7 @@ function Donate() {
         
       </div>
       <div className='sm:ml-5 ml-1'>
+       
           <h1 className='mt-10 font-semibold text-xl text-[#833556] '>To donate through Mpesa follow these steps:</h1>
           <ol type='1' className='mt-2'>
             <li>1. Select Lipa na M-PESA</li>
