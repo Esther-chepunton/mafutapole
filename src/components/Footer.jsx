@@ -37,12 +37,12 @@ function Footer() {
   <div className="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:ml-96">
       <div className=''>
-        <p>
+        <div>
           <span className="text-2xl tracking-wide text-white">
             Contact
           </span>
 
-          <h1 className='text-white text-base font-bold mt-6'>Nairobi, Kenya</h1>
+          <p className='text-white text-base font-bold mt-6'>Nairobi, Kenya</p>
 
           <p
             className="block text-base  mt-2 text-white hover:opacity-75 sm:text-lg"
@@ -50,14 +50,14 @@ function Footer() {
             0712027836
           </p>
 
-          <h1 className='text-orange-200 underline text-base  mt-3'><a href='mailto:ceo@tepa.co.ke'>ceo@tepa.co.ke</a></h1>
-        </p>
+          <p className='text-orange-200 underline text-base  mt-3'><a href='mailto:ceo@tepa.co.ke'>ceo@tepa.co.ke</a></p>
+        </div>
 
         
         <ul className="mt-8 flex gap-6 text-2xl">
           <li>
             <a
-              href="/"
+              href="https://web.facebook.com/Teenage.PA?_rdc=1&_rdr"
               rel="noreferrer"
               target="_blank"
               className="text-orange-100/70 transition hover:opacity-75"
@@ -72,7 +72,7 @@ function Footer() {
 
           <li>
             <a
-              href="/"
+              href="https://instagram.com/tepa.ke?igshid=MzRlODBiNWFlZA=="
               rel="noreferrer"
               target="_blank"
               className="text-orange-100/70 transition hover:opacity-75"
@@ -102,7 +102,7 @@ function Footer() {
 
           <li>
             <a
-              href="/"
+              href="http://www.google.com/url?q=http%3A%2F%2Fwa.me%2F254712027836&sa=D&sntz=1&usg=AOvVaw1DuOoLXcFnEORAcNhe9VmI"
               rel="noreferrer"
               target="_blank"
               className="text-orange-100/70 transition hover:opacity-75"
