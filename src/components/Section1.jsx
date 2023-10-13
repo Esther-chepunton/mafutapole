@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Section1() {
   return (
-    <div className='md:h-[120vh] h-[90vh] bg-[#833556]'>
+    <div className='md:h-[120vh] h-[108vh] bg-[#833556]'>
 
         <section>
   <div className="mx-auto max-w-screen-2xl px-1 py-8 sm:px-6 lg:px-8">

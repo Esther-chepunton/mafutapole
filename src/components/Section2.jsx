@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 function Section2() {
   return (
     <div className='md:h-[140vh] '>
-        <div className='sm:mt-48 mt-32'>
-            <h1 className=' text-black md:text-6xl text-5xl font-black md:ml-20 ml-4'>What we do</h1>
+        <div className='sm:mt-48 mt-28'>
+            <h1 className=' text-black md:text-6xl text-4xl font-black md:ml-20 ml-4'>What we do</h1>
             <hr className='w-11/12 border-t-1 mx-auto border-gray-300 my-10' />
             
             <div className='md:ml-[600px] ml-2'>
-                <p className=' font-bold text-2xl'>At TePA, we are more than just an organization; we are architects of empowerment, architects of change. Through our dedicated initiatives, we shape a future where every individual, regardless of their background, not only dreams but achieves, thrives, and contributes meaningfully to vibrant, empowered communities. </p>
+                <p className=' font-bold md:text-2xl text-lg'>At TePA, we are more than just an organization; we are architects of empowerment, architects of change. Through our dedicated initiatives, we shape a future where every individual, regardless of their background, not only dreams but achieves, thrives, and contributes meaningfully to vibrant, empowered communities. </p>
                 <Link to={"/about"}>
                 <button className='mt-5'>
                     <span className='mt-5 text-sm text-[#833556] font-bold'>READ MORE</span>
