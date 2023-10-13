@@ -22,16 +22,22 @@ function Navbar() {
         setDonateOpen(false)
     }
 
+    const closeMobileMenu = () => {
+      setIsMenuOpen(false);
+    };
+
   return (
     <div className=' bg-transparent absolute z-10'>
 <header className="pt-2 z-10">
   <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div className="flex h-16 items-center justify-between">
       <div className="flex-1 md:flex md:items-center md:gap-12 flex">
+        <Link to={"/"}>
         <div className="  flex w-20">
           <img src="tepa-removebg-preview.png" alt="logo" className='' />
           <h1 className='pt-6 font-bold text-2xl text-pink-400 pl-1'>TePA</h1>
         </div>
+        </Link>
       </div>
 
       <div className="md:flex md:items-center md:gap-12 lg:ml-[650px]">
@@ -78,7 +84,7 @@ function Navbar() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <div className="sm:flex sm:gap-4 ml-28 md:ml-0">
+          <div className="sm:flex sm:gap-4 ml-[135px] md:ml-0">
             <button
               className=" bg-pink-500  px-7 py-3.5 text-sm font-medium text-white shadow"
               onClick={openDonate}
@@ -100,7 +106,7 @@ function Navbar() {
           <div className="md:hidden absolute top-11 right-0 w-full p-4 z-[900px] ">
             <ul className="bg-black px-3 py-2 gap-10  ">
 
-<Link to={'/'}>
+<Link to={'/'} onClick={closeMobileMenu} >
 <li className="text-white transition p-3 hover:text-white/75 hover:bg-pink-500">
   
     Home
@@ -108,7 +114,7 @@ function Navbar() {
 </li>
 </Link>
 
-<Link to={'/about'}>
+<Link to={'/about'} onClick={closeMobileMenu}>
 
 <li className='text-white transition  p-3 hover:text-white/75 hover:bg-pink-500'>
   
@@ -117,7 +123,7 @@ function Navbar() {
 </li>
 </Link>
 
-<Link to={'/events'}>
+<Link to={'/events'} onClick={closeMobileMenu}>
 
 <li className="text-white transition p-3  hover:text-white/75 hover:bg-pink-500">
   
@@ -126,7 +132,7 @@ function Navbar() {
 </li>
 </Link>
 
-<Link to={'/contacts'}>
+<Link to={'/contacts'} onClick={closeMobileMenu}>
 
 <li className="text-white transition p-3 hover:text-white/75 hover:bg-pink-500">
   

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Section2() {
   return (
     <div className='md:h-[140vh] '>
-        <div className='sm:mt-48 mt-28'>
+        <div className='sm:mt-48 mt-32'>
             <h1 className=' text-black md:text-6xl text-5xl font-black md:ml-20 ml-4'>What we do</h1>
             <hr className='w-11/12 border-t-1 mx-auto border-gray-300 my-10' />
             
