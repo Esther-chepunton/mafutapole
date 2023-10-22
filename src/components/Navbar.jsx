@@ -40,7 +40,7 @@ function Navbar() {
         </Link>
       </div>
 
-      <div className="md:flex md:items-center md:gap-12 lg:ml-[650px]">
+      <div className="md:flex md:items-center md:gap-12 lg:ml-[550px]">
         <nav aria-label="Global" className="hidden md:block">
           <ul className="flex items-center gap-6 text-base font-semibold">
 
@@ -66,6 +66,15 @@ function Navbar() {
             <li className="text-white transition  hover:text-white/75">
               
                 Events
+             
+            </li>
+            </Link>
+
+            <Link to={'/blog'}>
+
+            <li className="text-white transition  hover:text-white/75">
+              
+                Blog
              
             </li>
             </Link>
@@ -128,6 +137,15 @@ function Navbar() {
 <li className="text-white transition p-3  hover:text-white/75 hover:bg-pink-500">
   
     Events
+ 
+</li>
+</Link>
+
+<Link to={'/blog'} onClick={closeMobileMenu}>
+
+<li className="text-white transition p-3  hover:text-white/75 hover:bg-pink-500">
+  
+    Blog
  
 </li>
 </Link>

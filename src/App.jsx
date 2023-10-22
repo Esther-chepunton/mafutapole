@@ -8,6 +8,7 @@ import About from './pages/About'
 import { Routes, Route } from 'react-router-dom'
 import Contacts from './pages/Contacts'
 import Events from './pages/Events'
+import Blog from './pages/Blog'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route index path="/about" element={<About />}/>
         <Route index path="/contacts" element={<Contacts />}/>
         <Route index path="/events" element={<Events />}/>
+        <Route index path="/blog" element={<Blog />}/>
         
     </Routes>
     </>
