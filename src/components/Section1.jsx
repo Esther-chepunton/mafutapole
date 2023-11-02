@@ -34,14 +34,9 @@ function Section1() {
         </div>
       </div>
 
-      <div className=" mt-28 md:mt-36">
+      <div className=" mt-16 md:mt-28">
       
-      <img
-  alt="Student"
-  src="/section1.jpg"
-  className="w-full h-auto object-cover max-w-full bg-black bg-opacity-90"
-  loading='lazy'
-/>
+      <img alt="Student" src="/section1.avif" class="w-full h-auto object-cover max-w-full bg-black bg-opacity-90" loading="lazy"/>
 
 
         
