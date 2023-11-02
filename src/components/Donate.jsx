@@ -30,8 +30,8 @@ function Donate() {
 
       <div className='sm:mt-6 mt-3 md:ml-5 sm:flex bg-gray-500 py-5 px-5'>
         <div className=''>
-          <img src="/mpesalogo.png" alt="" className='sm:h-20 h-12' />
-          {/*<img src="/absa.png" alt="" className='h-16 ml-10' /> */} 
+          <img src="/mpesalogo.png" alt="" className='sm:h-20 h-12' loading='lazy' />
+       
           <h1 className=' font-bold text-white sm:text-lg text-sm'>Account Name: </h1>
           <span className='font-semibold sm:text-base text-sm'>Teenage Pregnancy Awareness Project</span>
         </div>

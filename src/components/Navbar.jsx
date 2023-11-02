@@ -34,7 +34,7 @@ function Navbar() {
       <div className="flex-1 md:flex md:items-center md:gap-12 flex">
         <Link to={"/"}>
         <div className="  flex w-20">
-          <img src="tepa-logo.png" alt="logo" className='' />
+          <img src="tepa-logo.png" alt="logo" className='w-full h-full' />
           <h1 className='pt-6 font-bold text-2xl text-pink-400 pl-1'>TePA</h1>
         </div>
         </Link>
