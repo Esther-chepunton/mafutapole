@@ -22,7 +22,7 @@ function Section1() {
           </p>
 
           <div className="mt-12 ">
-            <Link to={"/events"}>
+            <Link to={"/events"} aria-label="Learn More About Our Upcoming Events">
             <button
             
               className="text-[#833556] font-semibold hover:text-pink-300 bg-white px-10 py-4 border-1 border-[#b56b8a]"
@@ -34,13 +34,14 @@ function Section1() {
         </div>
       </div>
 
-      <div className=" mt-16">
+      <div className=" mt-28 md:mt-36">
       
-        <img
-          alt="Student"
-          src="/section1.jpg"
-          className=" w-[900px] object-cover sm:h-56 md:h-[100vh] bg-black bg-opacity-90"
-        />
+      <img
+  alt="Student"
+  src="/section1.jpg"
+  className="w-full h-auto object-cover max-w-full bg-black bg-opacity-90"
+  loading='lazy'
+/>
 
 
         

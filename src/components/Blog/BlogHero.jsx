@@ -13,6 +13,7 @@ export default function BlogHero() {
   src={"/image16.jpg"}
   alt="background"
   className=" md:h-[70vh] h-[40vh] w-full object-cover inset-0 bg-white/75"
+  loading='lazy'
 
   />
 

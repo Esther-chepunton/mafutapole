@@ -26,6 +26,7 @@ function BlogSection1() {
               alt="photo"
               src={card.image}
               className="h-56 w-full object-cover"
+              loading='lazy'
             />
 
             <h3 className="text-lg font-medium text-gray-900 px-3 pt-3">{card.title}</h3>

@@ -10,7 +10,7 @@ function Section2() {
             
             <div className='md:ml-[600px] ml-2'>
                 <h2 className=' font-bold md:text-2xl text-lg'>At TePA, we are more than just an organization; we are architects of empowerment, architects of change. Through our dedicated initiatives, we shape a future where every individual, regardless of their background, not only dreams but achieves, thrives, and contributes meaningfully to vibrant, empowered communities. </h2>
-                <Link to={"/about"}>
+                <Link to={"/about"} aria-label="Learn More About TePA">
                 <button className='mt-5'>
                     <span className='mt-5 text-sm text-[#833556] font-bold'>READ MORE</span>
                 </button>

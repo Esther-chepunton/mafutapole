@@ -32,6 +32,7 @@ function AboutSection1() {
             src="/image4.jpg"
             alt=""
             className="h-[350px] w-full object-cover  transition duration-500 group-hover:scale-105 sm:h-[550px]"
+            loading='lazy'
           />
 
           
@@ -44,6 +45,7 @@ function AboutSection1() {
             src="/image5.jpg"
             alt=""
             className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[550px]"
+            loading='lazy'
           />
 
           
