@@ -16,7 +16,7 @@ function Hero() {
             <Link to={"/about"} aria-label="Learn More About TePA">
 
             <button className='bg-pink-500 px-10 py-3 mt-7 rounded-full'>
-                <span className='text-white font-semibold text-sm'>READ MORE</span>
+                <span className='text-white font-semibold text-sm'>ABOUT TEPA</span>
             </button>
 
             </Link>

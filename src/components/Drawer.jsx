@@ -12,7 +12,10 @@ const Drawer = ({ children, isOpen, onClose }) => {
 				style={{ boxShadow: `${isOpen ? "rgba(0, 0, 0, 0.4) 0px 30px 30px" : ""}` }}
 			>
 				<aside className='h-full overflow-y-auto'>
-				<button onClick={onClose} className="absolute top-2 right-2 text-pink-600 text-2xl"><AiFillCloseSquare/></button>
+				<button onClick={onClose} className="absolute top-2 right-2 text-pink-600 text-2xl">
+				<span>Close</span>
+					<AiFillCloseSquare/>
+					</button>
 					
 					<main className='bg-transparent p-4 text-black'>{children}</main>
 				</aside>

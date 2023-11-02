@@ -27,7 +27,7 @@ function Section1() {
             
               className="text-[#833556] font-semibold hover:text-pink-300 bg-white px-10 py-4 border-1 border-[#b56b8a]"
             >
-              READ MORE
+              TEPA EVENTS
             </button>
             </Link>
           </div>
