@@ -13,7 +13,7 @@ function Section3() {
         <a href="#" className="block overflow-hidden group">
           <img
             src="/image2.jpg"
-            alt=""
+            alt="tepa2"
             className="h-[350px] w-full object-cover object-left transition duration-500 group-hover:scale-105 sm:h-[550px]"
           />
 
@@ -25,7 +25,7 @@ function Section3() {
         <a href="#" className="block overflow-hidden group">
           <img
             src="/image1.jpg"
-            alt=""
+            alt="tepa1"
             className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[550px]"
           />
 
@@ -37,7 +37,7 @@ function Section3() {
         <a href="#" className="block overflow-hidden group">
           <img
             src="/image3.jpg"
-            alt=""
+            alt="tepa3"
             className="h-[350px] w-full  object-cover transition duration-500 group-hover:scale-105 sm:h-[550px]"
           />
 

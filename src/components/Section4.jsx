@@ -17,7 +17,7 @@ function Section4() {
     <div className='md:h-[90vh] bg-[#833556] pb-20'>
         <section>
             <h1 className='uppercase text-white tracking-wider text-center pt-28 font-bold'>Help us, Help Them</h1>
-            <p className='text-white text-center md:text-6xl text-3xl pt-8 font-bold'>Support us and change the course of a child's life today!</p>
+            <h2 className='text-white text-center md:text-6xl text-3xl pt-8 font-bold'>Support us and change the course of a child's life today!</h2>
             <div className="mt-4 flex justify-center md:mt-16">
             <button
               
