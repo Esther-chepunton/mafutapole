@@ -1,13 +1,28 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import VolunteerCall from '../Volunteering'
-import Popup from '../Popup'
+import emailjs from '@emailjs/browser';
 
 function ContactForm() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_e6jozwt', 'template_0eas49o', form.current, 'd7pYOb-Palj2HZL5x')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
   return (
+
+    
 
   <section className="bg-gray-100 md:pt-40">
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-    <Popup/>
     <VolunteerCall/>
     <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
       <div className="lg:col-span-2 lg:py-12">
@@ -33,7 +48,7 @@ function ContactForm() {
 
         <h1 className='mb-8 font-bold text-2xl text-[#833556]'>Message Us</h1>
         
-        <form action="" className="space-y-6">
+        <form ref={form} onSubmit={sendEmail} className="space-y-6">
           
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -44,6 +59,7 @@ function ContactForm() {
                 placeholder="Name"
                 type="text"
                 id="fname"
+                name="user_name"
               />
             </div>
 
@@ -54,6 +70,7 @@ function ContactForm() {
                 placeholder="Email Address"
                 type="email"
                 id="email"
+                name="user_email"
               />
             </div>
           </div>
@@ -69,6 +86,7 @@ function ContactForm() {
               placeholder="Message"
               rows="8"
               id="message"
+              name="message"
             ></textarea>
           </div>
 
