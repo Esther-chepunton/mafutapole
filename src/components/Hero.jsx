@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Hero() {
   return (
-    <div className=' md:h-[100vh] h-[70vh] w-auto flex bg-coverImage bg-cover bg-opacity-5'>
+    <div className=' md:h-[100vh] h-[70vh] w-auto flex bg-coverImage bg-cover bg-opacity-5 '>
 
 <div className='absolute md:h-[100vh] h-[70vh]  md:mt-0 inset-0 bg-opacity-60 bg-black'></div>
 

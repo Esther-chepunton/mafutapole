@@ -1,10 +1,14 @@
 import React from 'react'
+import VolunteerCall from '../Volunteering'
+import Popup from '../Popup'
 
 function ContactForm() {
   return (
 
   <section className="bg-gray-100 md:pt-40">
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <Popup/>
+    <VolunteerCall/>
     <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
       <div className="lg:col-span-2 lg:py-12">
         <h1 className="max-w-xl text-5xl font-black">
@@ -34,35 +38,27 @@ function ContactForm() {
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div>
-              <label className="sr-only" htmlFor="fname">First Name</label>
+              <label className="sr-only" htmlFor="fname">Name</label>
               <input
                 className="w-full rounded-lg bg-gray-100 border-gray-200 p-3 text-sm"
-                placeholder="First Name"
+                placeholder="Name"
                 type="text"
                 id="fname"
               />
             </div>
 
             <div>
-              <label className="sr-only" htmlFor="lname">Last Name</label>
+              <label className="sr-only" htmlFor="email">Last Name</label>
               <input
                 className="w-full rounded-lg bg-gray-100 border-gray-200 p-3 text-sm"
-                placeholder="Last Name"
-                type="text"
-                id="lname"
+                placeholder="Email Address"
+                type="email"
+                id="email"
               />
             </div>
           </div>
 
-          <div>
-            <label className="sr-only" htmlFor="email">Email </label>
-            <input
-              className="w-full rounded-lg bg-gray-100 border-gray-200 p-3 text-sm"
-              placeholder="Email Address"
-              type="email"
-              id="email"
-            />
-          </div>
+          
 
 
           <div>
