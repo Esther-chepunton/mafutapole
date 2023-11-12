@@ -1,8 +1,8 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import ContactsHero from '../components/Contacts/ContactsHero';
 import ContactForm from '../components/Contacts/ContactForm';
 import Footer from '../components/Footer';
+import { Helmet } from 'react-helmet-async';
 
 function Contacts() {
   return (
