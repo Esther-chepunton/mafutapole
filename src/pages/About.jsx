@@ -5,10 +5,16 @@ import Approach from '../components/About/Approach'
 import Stats from '../components/Stats'
 import Section4 from '../components/Section4'
 import Footer from '../components/Footer'
+import { Helmet } from 'react-helmet-async'
 
 function About() {
   return (
     <div>
+      <Helmet>
+        <title>About Us - TePA</title>
+        <meta name="description" content="TePA, which stands for Teenage Pregnancy Awareness Project, is steadfast in its commitment to fostering awareness and empowerment in Kenya." />
+        <link rel="canonical" href="https://www.tepa2030.org/about" />
+      </Helmet>
         <Hero />
         <AboutSection1 />
         <Approach />
