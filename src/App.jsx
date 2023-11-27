@@ -16,7 +16,7 @@ import Error from './components/Error';
 
 function App() {
   const [showPopup, setShowPopup] = useState(false);
-  const [isOnline, setIsOnline] = useState(false); // Set to false to simulate an offline website
+ 
 
   useEffect(() => {
     // Set interval to show the popup every 30 seconds
@@ -30,9 +30,6 @@ function App() {
     };
   }, []);
 
-  if (!isOnline) {
-    return <Error />;
-  }
 
   return (
     <>
