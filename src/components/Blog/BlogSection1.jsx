@@ -6,11 +6,19 @@ function BlogSection1() {
 
   const blogData = [
     {
+      title: 'Effects of Prolonged Rains on Kibera and Kangemi',
+      image: '/SlumFloods.jpg',
+      summary: " In the heart of Nairobi, the slums of Kibera and Kangemi are enduring an unprecedented crisis due to ongoing heavy rains. These rains have led to substantial loss of life, displacement of over 50,000 people, and severe food shortages",
+      content: '/TepaFloods.pdf', // URL to the PDF file for this card
+  },
+    {
         title: 'The Story Behind Tepa',
         image: '/image13.jpg',
         summary: " In the heart of Kibera, one of Africa's largest slums, where dreams are often overshadowed by the harsh realities of life, a remarkable story of resilience and hope emerges. It's the story of Reuben Apuya Mutua, a young man who, against all odds",
         content: '/Tepa_story.pdf', // URL to the PDF file for this card
     },
+    
+
   ];
 
   return (
