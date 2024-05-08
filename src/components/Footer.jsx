@@ -47,7 +47,7 @@ function Footer() {
           <p
             className="block text-base  mt-2 text-white hover:opacity-75 sm:text-lg"
           >
-            0712027836
+            +254712027836
           </p>
 
           <p className='text-orange-200 underline text-base  mt-3'><a href='mailto:ceo@tepa.co.ke'>ceo@tepa.co.ke</a></p>

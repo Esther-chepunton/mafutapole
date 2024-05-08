@@ -62,8 +62,8 @@ const VolunteerPopup = () => {
                   </p>
                   <p className="mt-6 text-sm">
                     Call/Text us on{' '}
-                    <a href="tel:0712027836" className="text-blue-500">
-                      0712027836
+                    <a href="tel:+254712027836" className="text-blue-500">
+                      +254712027836
                     </a>
                   </p>
                   
