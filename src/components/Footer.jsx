@@ -50,7 +50,7 @@ function Footer() {
             +254712027836
           </p>
 
-          <p className='text-orange-200 underline text-base  mt-3'><a href='mailto:ceo@tepa.co.ke'>ceo@tepa.co.ke</a></p>
+          <p className='text-orange-200 underline text-base  mt-3'><a href='mailto:ceo@tepa.co.ke'>tepaa.ke@gmail.com</a></p>
         </div>
 
         
