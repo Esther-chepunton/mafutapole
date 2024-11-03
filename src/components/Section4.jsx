@@ -1,19 +1,10 @@
 import React, {useState} from 'react'
-import Drawer from './Drawer';
-import Donate from './Donate';
+
 import { Link } from 'react-router-dom';
 
 function Section4() {
 
-  const [isDonateOpen, setDonateOpen] = useState(false);
-
-    const openDonate = () =>{
-        setDonateOpen(true)
-    }
-
-    const closeDonate = () => {
-        setDonateOpen(false)
-    }
+  
   return (
     <div className='md:h-[90vh] bg-green-800 pb-20'>
         <section>
@@ -34,9 +25,7 @@ function Section4() {
           </div>
         </section>
 
-        <Drawer isOpen={isDonateOpen} onClose = {closeDonate}>
-  <Donate />
-</Drawer>
+     
 
     </div>
   )

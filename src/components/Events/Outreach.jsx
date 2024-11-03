@@ -2,7 +2,7 @@ import React from 'react';
 
 const Outreach = () => {
   return (
-    <div className="mt-52 max-w-5xl mx-auto mb-20">
+    <div className="md:mt-52 mt-20  max-w-5xl mx-auto mb-20">
       <h1 className="text-3xl font-bold text-center  mb-6">Our Work</h1>
       <h2 className="text-2xl font-semibold  mb-20 mt-20">Outreach Discipleship and Church Planting</h2>
       

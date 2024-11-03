@@ -4,12 +4,12 @@ function Structure() {
   return (
     <div>
 
-        <div className='flex mb-20'>
+        <div className='md:flex mb-20'>
 
-        <div className=' w-full mt-20'>
+        <div className=' w-full md:mt-20'>
         <img src="images/structure.png" alt="structure" className=' w-[500px]'/>
         </div>
-        <div className='w-[1400px] mr-4'>
+        <div className='lg:w-[1400px] mr-4 md:mx-10 mx-0'>
             <div>
                 <h2 className=' font-bold text-lg'>Jerusalem</h2>
                 <p className='text-gray-500'>This is the highest level (headquarters) of the church led by an apostle Mkuu who depurtised by Naibu Apostle Mkuu and is supported by other apostles. The spiritual leader apostle is the overall chairman of Dini Ya Roho MafutaPole Ya Africa. The present total numbers of apostle are twenty (20) which may be expanded to meet the demand of work.  </p>

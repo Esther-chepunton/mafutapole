@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import {BiLogoFacebook, BiLogoInstagramAlt, BiLogoTwitter, BiLogoWhatsapp, BiLogoTiktok} from 'react-icons/bi'
-import Drawer from './Drawer';
-import Donate from './Donate';
+
 
 function Footer() {
 

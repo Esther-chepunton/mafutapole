@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
-import Donate from './Donate';
-import Drawer from './Drawer';
+
 import { HiMenu, HiX } from "react-icons/hi";
 
 function Navbar() {
@@ -95,7 +94,7 @@ function Navbar() {
         <div className="flex items-center gap-4">
           
 
-          <div className="block md:hidden bg-white rounded">
+          <div className="block md:hidden bg-white rounded ml-48">
           {isMenuOpen ? (
               <HiX onClick={toggleMenu} className="text-2xl" />
             ) : (
@@ -120,25 +119,25 @@ function Navbar() {
 
 <li className='text-white transition  p-3 hover:text-white/75 hover:bg-pink-500'>
   
-    What we do
+    About Us
 
 </li>
 </Link>
 
-<Link to={'/events'} onClick={closeMobileMenu}>
+<Link to={'/work'} onClick={closeMobileMenu}>
 
 <li className="text-white transition p-3  hover:text-white/75 hover:bg-pink-500">
   
-    Events
+    Work
  
 </li>
 </Link>
 
-<Link to={'/blog'} onClick={closeMobileMenu}>
+<Link to={'/history'} onClick={closeMobileMenu}>
 
 <li className="text-white transition p-3  hover:text-white/75 hover:bg-pink-500">
   
-    Blog
+    History
  
 </li>
 </Link>
@@ -165,9 +164,7 @@ function Navbar() {
   </div>
 </header>
 
-<Drawer isOpen={isDonateOpen} onClose = {closeDonate}>
-  <Donate />
-</Drawer>
+
 
     </div>
   )

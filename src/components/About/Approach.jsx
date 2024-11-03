@@ -2,7 +2,7 @@ import React from 'react'
 
 function Approach() {
   return (
-    <div className='bg-gray-100 mb-[300px]'>
+    <div className='bg-gray-100 md:mb-[300px] mb-[400px]'>
         <div className='pt-[60px]'>
             <h1 className=' text-black md:text-5xl text-4xl font-black md:ml-20 ml-5'>Our Approach</h1>
             <hr className='w-11/12 border-t-1 mx-auto border-[#833556] mb-10 md:mt-12 mt-5' />

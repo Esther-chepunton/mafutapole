@@ -11,7 +11,7 @@ export default function BlogHero() {
 className="   md:ml-14 mx-5 md:text-3xl text-2xl text-white"
 
 >
-<p style={{ fontWeight: '1000'}} className=' pt-5 md:pt-40 md:text-8xl text-5xl '>Our History</p>
+<p style={{ fontWeight: '1000'}} className='pt-40 md:text-8xl text-5xl '>Our History</p>
 
 
 

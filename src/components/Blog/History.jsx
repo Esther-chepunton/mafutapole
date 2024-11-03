@@ -2,8 +2,8 @@ import React from 'react';
 
 const History = () => {
   return (
-    <div className=" mx-auto p-8 mt-52">
-      <h1 className="text-4xl font-bold text-center mb-6">Historical Background</h1>
+    <div className=" mx-auto p-8 md:mt-52 mt-20 text-gray-600">
+      <h1 className="md:text-4xl text-3xl font-bold text-center mb-6 text-black">Historical Background</h1>
       <p className="text-lg mb-6">
         Dini ya Roho mafuta pole ya Africa (DRMPA) began around 1940, founded by Apostle Lucas Pkech in Keringet, West Pokot County. Lucas Pkech, a Catholic-ordained catechist and a trained blacksmith from Kabete College, had a divine calling that led him to create jingles at Keringet.
       </p>
