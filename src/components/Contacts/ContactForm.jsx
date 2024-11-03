@@ -6,7 +6,7 @@ function ContactForm() {
 
   const form = useRef();
 
-  const sendEmail = (e) => {
+  /*const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_e6jozwt', 'template_0eas49o', form.current, 'd7pYOb-Palj2HZL5x')
@@ -16,14 +16,15 @@ function ContactForm() {
           console.log(error.text);
       });
       e.target.reset()
-  };
+  }; */
+
+
   return (
 
     
 
   <section className="bg-gray-100 md:pt-40">
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-    <VolunteerCall/>
     <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
       <div className="lg:col-span-2 lg:py-12">
         <h1 className="max-w-xl text-5xl font-black">
@@ -31,24 +32,24 @@ function ContactForm() {
         </h1>
 
         <div className="mt-8">
-          <h1 className="text-2xl font-bold text-pink-700">
-          0712027836 <span className='text-base text-black'> - Rueben Mutua (Chairperson)</span>
+          <h1 className="text-2xl font-bold text-green-700">
+          (+254) 718787950  <span className='text-base text-black'> - Secretary General </span>
           </h1>
 
           <address className="mt-2 not-italic">
-            Nairobi, Kenya
+          P.O.Box 594-30600 <br/>Kapenguria, Kenya  
           </address>
 
-          <h1 className=' underline text-base  mt-3'><a href='mailto:ceo@tepa.co.ke'>tepaa.ke@gmail.com</a></h1>
+          <h1 className=' underline text-base  mt-3'><a href='mailto:mafutapole@gmail.com '>mafutapole@gmail.com </a></h1>
         </div>
       </div>
 
 
       <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
 
-        <h1 className='mb-8 font-bold text-2xl text-[#833556]'>Message Us</h1>
+        <h1 className='mb-8 font-bold text-2xl text-green-700'>Message Us</h1>
         
-        <form ref={form} onSubmit={sendEmail} className="space-y-6">
+        <form  className="space-y-6">
           
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -93,7 +94,7 @@ function ContactForm() {
           <div className="mt-4">
             <button
               type="submit"
-              className="inline-block w-full rounded-lg bg-[#833556] px-5 py-3 font-medium text-white sm:w-auto"
+              className="inline-block w-full rounded-lg bg-green-500 px-5 py-3 font-medium text-white sm:w-auto"
             >
               Send Message
             </button>

@@ -9,62 +9,19 @@ function AboutSection1() {
             
             <div className='md:flex gap-10 md:mx-10 mx-3'>
                 <div className='md:w-[500px] '>
-                <h1 className=' font-bold md:text-xl text-lg text-[#833556]'>We are building an engaged COMMUNITY where teenagers are mentored and teenage pregnancies reduced.</h1>
+                <h1 className=' font-bold md:text-xl text-lg text-green-700'>Dini Ya Roho Mafuta Pole Ya Africa </h1>
                 
                 </div>
 
                 <div className='md:w-[50%] text-gray-600 mt-8 md:mt-0'>
-                    <p>Established in August 2022, Teenage Pregnancy Awareness (TePA) is a Kenya-registered Community Based Organization (CBO) dedicated to combatting the prevalent issue of teenage pregnancies within Slums in Nairobi, students career empowerment, distribution of menstrual hygiene and educational products, parent and student empowerment and general community development.  </p>
-<p className='mt-10'>TePA, which stands for Teenage Pregnancy Awareness Project, is steadfast in its commitment to fostering awareness and empowerment.</p>
+                    <p>
+                    Dini Ya Roho Mafuta Pole Ya Africa is religious organization and a church which is legally registered in Kenya and  Uganda and  whose vision is to spires to be the voice and the hand that encourages people to change their lives with hope, comfort and peace for the Glory of God and whose mission statement is to connect with God through Faith, connect with others through love, and connect others with God through His Word and to be the voice of Hope for the poor and vulnerable people in Kenya, Africa and the world                          </p>
 
                 </div>
             </div>
             </div>
 
-            <div className="max-w-screen-xl  py-8   sm:py-12 ">
-    
-
-    <ul className="grid gap-1  mt-8 sm:grid-cols-2 lg:grid-cols-3 px-3">
-
-      <li>
-        <a href="#" className="block overflow-hidden group">
-          <img
-            src="/image4.jpg"
-            alt=""
-            className="h-[350px] w-full object-cover  transition duration-500 group-hover:scale-105 sm:h-[550px]"
-            loading='lazy'
-          />
-
-          
-        </a>
-      </li>
-
-      <li>
-        <a href="#" className="block overflow-hidden group">
-          <img
-            src="/image5.jpg"
-            alt=""
-            className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[550px]"
-            loading='lazy'
-          />
-
-          
-        </a>
-      </li>
-
-      <li>
-        <a href="#" className="block overflow-hidden group">
-          <img
-            src="/image7.jpg"
-            alt=""
-            className="h-[350px] w-full  object-cover transition duration-500 group-hover:scale-105 sm:h-[550px]"
-          />
-
-          
-        </a>
-      </li>
-    </ul>
-  </div>
+           
 
     </div>
   )

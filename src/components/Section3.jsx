@@ -3,35 +3,37 @@ import React from 'react';
 function Section3() {
   const images = [
     {
-      src: '/image2.jpg',
-      alt: 'tepa2',
+      src: 'images/ls1.jpg',
+      alt: 'ls1',
+      text: 'From right Apostle Mkuu Aristi kapel , Naibu Apostle Mkuu Ameme Limangura and secretary Meskina Lomuria  '
     },
     {
-      src: '/image1.jpg',
-      alt: 'tepa1',
+      src: 'images/ls2.jpg',
+      alt: 'ls2',
+      text: 'The church apostles  '
     },
-    {
-      src: '/image3.jpg',
-      alt: 'tepa3',
-    },
+    
   ];
 
   return (
     <div>
-      <section className="mt-5 mb-10">
+      <section className=" mb-10">
         <div className="max-w-screen-xl py-8 sm:py-12">
-          <ul className="grid gap-4 mt-8 sm:grid-cols-2 lg:grid-cols-3 px-3">
+          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-2 px-3">
             {images.map((image, index) => (
               <li key={index}>
                 <a href="#" className="block overflow-hidden group">
                   <img
                     src={image.src}
                     alt={image.alt}
-                    className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[550px]"
+                    className="h-[350px] w-full object-contain transition duration-500 group-hover:scale-105 sm:h-[550px]"
                     loading="lazy"
                   />
                 </a>
+                <p className=' -mt-10'>{image.text}</p>
               </li>
+              
+              
             ))}
           </ul>
         </div>

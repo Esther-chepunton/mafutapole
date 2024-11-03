@@ -5,29 +5,23 @@ import Donate from './Donate';
 
 function Footer() {
 
-  const [isDonateOpen, setDonateOpen] = useState(false);
-
-    const openDonate = () =>{
-        setDonateOpen(true)
-    }
-
-    const closeDonate = () => {
-        setDonateOpen(false)
-    }
+ 
 
   return (
     <div className=' md:h-[90vh] bg-black'>
         <footer className=" lg:grid lg:grid-cols-5">
   <div className="relative block  lg:col-span-2 lg:h-full  md:ml-10 ml-4">
-    <h1 className='md:mt-20 pt-10 sm:pt-0 font-bold text-2xl text-[#833556] opacity-80 uppercase '>Our Mission</h1>
-    <p className='mt-5 text-white/70'>Through a holistic approach, we strive to create a supportive environment that enables young individuals and families to make informed choices, pursue meaningful careers, and thrive as responsible members of society. </p>
+    <h1 className='md:mt-20 pt-10 sm:pt-0 font-bold text-2xl text-green-600 opacity-80 uppercase '>Our Mission</h1>
+    <p className='mt-5 text-white/70'>
+    Dini ya roho ya Mafuta pole ya Africa mission is to connect with God through Faith, connect with others through love, and connect others with God through His Word and to be the voice of Hope for the poor and vulnerable people in Kenya, Africa and the world    
+     </p>
 
-    <button className="mt-4 flex justify-center md:mt-8 " onClick={openDonate}>
+    <button className="mt-4 flex justify-center md:mt-8 ">
             <p
               
-              className="text-orange-100 font-bold rounded-full hover:text-pink-300 text-sm bg-[#833556] px-7 py-3 border-1 border-[#b56b8a]"
+              className="text-orange-100 font-bold rounded-full hover:text-pink-300 text-sm bg-green-500 px-7 py-3 border-1 border-[#b56b8a]"
             >
-              DONATE
+              SEE MORE
             </p>
           </button>
 
@@ -42,22 +36,22 @@ function Footer() {
             Contact
           </span>
 
-          <p className='text-white text-base font-bold mt-6'>Nairobi, Kenya</p>
+          <p className='text-white text-base font-bold mt-6'>Kapenguria, Kenya</p>
 
           <p
-            className="block text-base  mt-2 text-white hover:opacity-75 sm:text-lg"
+            className="block text-base  mt-2 text-white hover:opacity-75"
           >
-            +254712027836
+            +254 718787950 
           </p>
 
-          <p className='text-orange-200 underline text-base  mt-3'><a href='mailto:ceo@tepa.co.ke'>tepaa.ke@gmail.com</a></p>
+          <p className='text-orange-200 underline text-base  mt-3'><a href='mailto:mafutapole@gmail.com '>mafutapole@gmail.com </a></p>
         </div>
 
         
         <ul className="mt-8 flex gap-6 text-2xl">
           <li>
             <a
-              href="https://web.facebook.com/Teenage.PA?_rdc=1&_rdr"
+              href=""
               rel="noreferrer"
               target="_blank"
               className="text-orange-100/70 transition hover:opacity-75"
@@ -70,20 +64,7 @@ function Footer() {
             </a>
           </li>
 
-          <li>
-            <a
-              href="https://instagram.com/tepa.ke?igshid=MzRlODBiNWFlZA=="
-              rel="noreferrer"
-              target="_blank"
-              className="text-orange-100/70 transition hover:opacity-75"
-            >
-              <span className="sr-only">Instagram</span>
-
-              <BiLogoInstagramAlt/>
-
-             
-            </a>
-          </li>
+          
 
           <li>
             <a
@@ -102,7 +83,7 @@ function Footer() {
 
           <li>
             <a
-              href="http://www.google.com/url?q=http%3A%2F%2Fwa.me%2F254712027836&sa=D&sntz=1&usg=AOvVaw1DuOoLXcFnEORAcNhe9VmI"
+              href="/"
               rel="noreferrer"
               target="_blank"
               className="text-orange-100/70 transition hover:opacity-75"
@@ -115,19 +96,7 @@ function Footer() {
             </a>
           </li>
 
-          <li>
-            <a
-              href="/"
-              rel="noreferrer"
-              target="_blank"
-              className="text-orange-100/70 transition hover:opacity-75"
-            >
-              <span className="sr-only">TikTok</span>
-              <BiLogoTiktok />
-
-              
-            </a>
-          </li>
+  
         </ul>
 
         
@@ -158,15 +127,13 @@ function Footer() {
         </ul>
 
         <p className="mt-8 text-xs text-gray-500 sm:mt-0">
-          &copy; 2023. Tenage Pregnancy Awareness Project. All rights reserved.
+          &copy; 2024. All rights reserved.
         </p>
       </div>
     </div>
   </div>
 </footer>
-<Drawer isOpen={isDonateOpen} onClose = {closeDonate}>
-  <Donate />
-</Drawer>
+
 
     </div>
   )

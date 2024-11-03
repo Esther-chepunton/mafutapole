@@ -6,6 +6,8 @@ import Stats from '../components/Stats'
 import Section4 from '../components/Section4'
 import Footer from '../components/Footer'
 import { Helmet } from 'react-helmet-async'
+import Structure from '../components/About/Structure'
+import DRMPAInfo from '../components/About/DRMPAInfo'
 
 function About() {
   return (
@@ -19,7 +21,9 @@ function About() {
         <AboutSection1 />
         <Approach />
         <Stats />
-        <Section4 />
+        <Structure />
+        <DRMPAInfo />
+       
         <Footer />
     </div>
   )

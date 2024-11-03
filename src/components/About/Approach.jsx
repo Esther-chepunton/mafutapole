@@ -9,14 +9,18 @@ function Approach() {
             
             <div className='md:flex gap-10 md:mx-16 mx-3'>
                 <div className='md:w-[500px] '>
-                <h1 className=' font-bold text-lg text-[#833556]'>Our Mission</h1>
-                <p className='text-gray-600 mt-5'>Through a holistic approach, we strive to create a supportive environment that enables young individuals and families to make informed choices, pursue meaningful careers, and thrive as responsible members of society.</p>
+                <h1 className=' font-bold text-lg text-green-700'>Our Mission</h1>
+                <p className='text-gray-600 mt-5'>
+                Dini ya roho ya Mafuta pole ya Africa mission is to connect with God through Faith, connect with others through love, and connect others with God through His Word and to be the voice of Hope for the poor and vulnerable people in Kenya, Africa and the world    
+                  </p>
                 
                 </div>
 
                 <div className='md:w-[50%] text-gray-600 mt-7 md:mt-0'>
-                <h1 className=' font-bold text-lg text-[#833556]'>Our Vision</h1>
-                <p className='text-gray-600 mt-5'>Our vision is to create a world where every individual, regardless of their background, has the opportunity to thrive and contribute to vibrant, empowered communities. We envision a society where teenage pregnancies are rare, career paths are illuminated, menstrual hygiene is a given right, education is a stepping stone to success, families are united and strong, and entrepreneurship is a driving force for sustainable development.  </p>
+                <h1 className=' font-bold text-lg text-green-700'>Our Vision</h1>
+                <p className='text-gray-600 mt-5'>
+                Dini ya Roho mafuta Pole Ya Africa aspires to be the voice and the hand that encourages people to change their lives with hope, comfort and peace for the Glory of God. 
+                   </p>
                 
                
                 </div>
@@ -24,7 +28,7 @@ function Approach() {
             </div>
 
             <div className='mt-28 h-[50vh] px-5'>
-                <img src="/image8.jpg" alt="" className='object-cover object-center h-[90vh] w-full' />
+                <img src="/images/vision.jpg" alt="" className='object-cover object-center h-[90vh] w-full' />
             </div>
     </div>
   )

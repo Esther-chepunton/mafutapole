@@ -33,14 +33,14 @@ function Navbar() {
     <div className="flex h-16 items-center justify-between">
       <div className="flex-1 md:flex md:items-center md:gap-12 flex">
         <Link to={"/"}>
-        <div className="  flex w-20">
-          <img src="tepa-logo.avif" alt="logo" className='w-full h-full' />
-          <h1 className='pt-6 font-bold text-2xl text-pink-400 pl-1'>TePA</h1>
+        <div className="  flex w-20 ml-14">
+          <img src="images/logo.png" alt="logo" className='w-full h-16' />
+          
         </div>
         </Link>
       </div>
 
-      <div className="md:flex md:items-center md:gap-12 lg:ml-[550px]">
+      <div className="md:flex md:items-center md:gap-12 lg:ml-[400px]">
         <nav aria-label="Global" className="hidden md:block">
           <ul className="flex items-center gap-6 text-base font-semibold">
 
@@ -54,27 +54,27 @@ function Navbar() {
 
             <Link to={'/about'}>
 
-            <li className='text-white transition w-[100px] hover:text-white/75'>
+            <li className='text-white transition hover:text-white/75'>
               
-                What we do
+                About 
             
             </li>
             </Link>
 
-            <Link to={'/events'}>
+            <Link to={'/work'}>
 
             <li className="text-white transition  hover:text-white/75">
               
-                Events
+                Work
              
             </li>
             </Link>
 
-            <Link to={'/blog'}>
+            <Link to={'/history'}>
 
             <li className="text-white transition  hover:text-white/75">
               
-                Blog
+                History
              
             </li>
             </Link>
@@ -93,14 +93,7 @@ function Navbar() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <div className="sm:flex sm:gap-4 ml-[135px] md:ml-0">
-            <button
-              className=" bg-pink-500  px-7 py-3.5 text-sm font-medium text-white shadow"
-              onClick={openDonate}
-            >
-              DONATE
-            </button>
-          </div>
+          
 
           <div className="block md:hidden bg-white rounded">
           {isMenuOpen ? (

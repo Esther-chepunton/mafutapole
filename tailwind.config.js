@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        coverImage: "url('/Home.avif')",
+        coverImage: "url('images/hq.jpg')",
       },
     },
   },

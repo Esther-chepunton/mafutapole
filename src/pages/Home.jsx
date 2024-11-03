@@ -12,7 +12,10 @@ function Home() {
     <div>
         <Hero />
         <Section1/>
+
         <Section2/>
+
+        
         <Stats />
         <Section3/>
         <Section4/>
